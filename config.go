@@ -1,3 +1,9 @@
+// Package configx helps to manipulate with app configs (yaml, json, env)
+// Features:
+// - Read yaml or json config file and load values to structure
+// - Get environment variable as string, bool or int
+// - Environment management - local, dev, prod. Getting config file path by current environment
+// - Configuration samples. Common config structures like Server, Swagger, SQL, Redis, etc...
 package configx
 
 import (

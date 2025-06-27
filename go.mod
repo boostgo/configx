@@ -2,7 +2,10 @@ module bgo.configx.go
 
 go 1.23
 
-require github.com/ilyakaznacheev/cleanenv v1.5.0
+require (
+	github.com/boostgo/fsx v0.0.2
+	github.com/ilyakaznacheev/cleanenv v1.5.0
+)
 
 require (
 	github.com/BurntSushi/toml v1.2.1 // indirect
