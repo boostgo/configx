@@ -1,4 +1,4 @@
-module bgo.configx.go
+module github.com/boostgo/configx
 
 go 1.23
 
